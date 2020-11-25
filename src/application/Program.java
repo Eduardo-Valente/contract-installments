@@ -64,9 +64,8 @@ public class Program {
 		
 		for(Installment inst : installments)
 		{
-		   System.out.println(sdf.format(inst.getDueDate() ) + " - " +  String.format("%,.2f", inst.getAmount() ) );	
+		   System.out.println(inst);
 		}
-		
 		sc.close();
 	}
 }
